@@ -1,0 +1,11 @@
+CREATE TABLE cars
+(
+    name varchar(32),
+    id   int
+);
+
+INSERT INTO cars(name, id)
+VALUES ('Mersedes', 2), ('Volvo', 3);
+
+SELECT *
+FROM cars;
